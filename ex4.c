@@ -3,7 +3,14 @@
 
 int main(){
 	int i, n ,heads = 0, tails = 0;
-
+	
+	//名前を聞くパート
+	char str[8];
+	printf("Who are you? \n>");
+	scanf("%s",str);
+	printf("Hello, %s!\n", str);
+	
+	//コイントスのパート
 	printf("Tossing a coin. . .\n");
 
 	for(i = 0 ; i < 3; i++){
